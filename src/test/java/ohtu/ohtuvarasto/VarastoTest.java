@@ -65,4 +65,13 @@ public class VarastoTest {
         assertEquals(4, varasto.paljonkoMahtuu(), vertailuTarkkuus);
     }
 
+    @Test
+    public void testi() {
+        String[] ar = new String[0];
+        Main.main(ar);
+        Varasto v1 = new Varasto(-1, 0);
+        Varasto v2 = new Varasto(1,2);
+    }
+
+
 }
